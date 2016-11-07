@@ -8,7 +8,7 @@
   <body>
     <header class="main-header">
         <div class="header-top">
-            <div class="container">
+            <div class="container clearfix">
                 <a class="logo">Техномарт</a>
                 <form action="" method="post" class="header-search">
                     <button type="submit"></button>
@@ -28,8 +28,8 @@
             </div>
         </div>
         <div class="header-bottom">
-            <div class="container">
-                <p> Интернет-магазин строительных материалов и инструментов для ремонта.</p>
+            <div class="container clearfix">
+                <p class="info"> Интернет-магазин строительных материалов и инструментов для ремонта.</p>
                 <p class="contacts"> <strong>+7 (812) 555 05 55</strong> г.Санкт-Петербург ул.Б. Конюшенная, д.19/8</p>
                 <div class="login">
                     <a clas="login" href="#">Войти</a>
@@ -63,20 +63,20 @@
             </div>
         </div>
     </header>
-    <main class="container">
+    <main class="container clearfix">
         <div class="goods-services">
             <div class="goods">
-                <div class="good">
+                <div class="good good-1">
                     <h3>Материалы</h3>
                     <a href="#">На любой вкус</a>
                     <img src="img/materials.png">
                 </div>
-                <div class="good">
+                <div class="good good-2">
                     <h3>Инструменты</h3>
                     <a href="#">На все случаи</a>
                     <img src="img/tools.png">
                 </div>
-                <div class="good">
+                <div class="good good-3">
                     <h3>Техника</h3>
                     <a href="#">Для стройки</a>
                     <img src="img/machinery.png">
@@ -97,12 +97,12 @@
                     </form>
                 </div>
                 <div class="support">
-                    <div class="good">
+                    <div class="good good-4">
                     <h3>Скидки 50%</h3>
                     <a href="#">На 350 товаров</a>
                     <img src="img/discounts.png">
                 </div>
-                <div class="good">
+                <div class="good good-5">
                     <h3>Доставка</h3>
                     <a href="#">Бесплатно</a>
                     <img src="img/delivery.png">
@@ -111,29 +111,29 @@
             </div>
             <div class="pop-goods">
                 <h2>Популярные товары</h2>
-                <a href="#">Все популярные товары</a>
+                <a class="all" href="#">Все популярные товары</a>
             </div>
             <div class="catalog">
                 <ul class="catalog-items">
-                    <li>
+                    <li class="catalog-item">
                         <img src="img/item-1.jpg">
                         <p>Перфоратор BOSCH BFG 9000</p>
                         <span>32 500 Р.</span>
                         <a href="#">25 500 Р.</a>
                     </li>
-                    <li>
+                    <li class="catalog-item">
                         <img src="img/item-2.jpg">
                         <p>Перфоратор BOSCH BFG 3000</p>
                         <span>22 500 Р.</span>
                         <a href="#">15 500 Р.</a>
                     </li>
-                    <li>
+                    <li class="catalog-item">
                         <img src="img/item-3.jpg">
                         <p>Перфоратор BOSCH BFG 6000</p>
                         <span>30 500 Р.</span>
                         <a href="#">25 500 Р.</a>
                     </li>
-                    <li>
+                    <li class="catalog-item catalog-item-4">
                         <img src="img/item-4.jpg">
                         <p>Перфоратор BOSCH BFG 2000</p>
                         <a href="#">12 500 Р.</a>
@@ -141,31 +141,33 @@
                 </ul>
             </div>
             <div class="pop-producers">
-                <h3>Популярные производители</h3>
-                <a href="#">Все производители</a>
+                <h2>Популярные производители</h2>
+                <a class="all" href="#">Все производители</a>
             </div>
             <div class="producers">
-                <a href="#"><img src="img/bosch.jpg"></a>
-                <a href="#"><img src="img/Makita.jpg"></a>
-                <a href="#"><img src="img/DeWALT.jpg"></a>
-                <a href="#"><img src="img/Интерскол.jpg"></a>
-                <a href="#"><img src="img/Hitachi.jpg"></a>
-                <a href="#"><img src="img/LG.jpg"></a>
-                <a href="#"><img src="img/AEG.jpg"></a>
-                <a href="#"><img src="img/Metabo.jpg"></a>
+                <a href="#" class="producer"><img src="img/bosch.jpg"></a>
+                <a href="#" class="producer"><img src="img/Makita.jpg"></a>
+                <a href="#" class="producer"><img src="img/DeWALT.jpg"></a>
+                <a href="#" class="producer inter"><img src="img/Интерскол.jpg"></a>
+                <a href="#" class="producer"><img src="img/Hitachi.jpg"></a>
+                <a href="#" class="producer"><img src="img/LG.jpg"></a>
+                <a href="#" class="producer"><img src="img/AEG.jpg"></a>
+                <a href="#" class="producer meta"><img src="img/Metabo.jpg"></a>
             </div>
         </div>
         <div class="services">
             <div class="container">
-                <h2>Сервисы</h2>
+               <div class="service-1">
+                <h3>Сервисы</h3>
                 <p>Хороший интернет-магазин отличается от плохого не только ценами. Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
-                <div class="service">
+               </div>
+                <div class="service-2">
                     <a href="#">Доставка</a>
                     <a href="#">Гарантия</a>
                     <a href="#">Кредит</a>
                 </div>
                 <div class="delivery">
-                    <h3>Доставка</h3>
+                    <span>Доставка</span>
                     <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
                 </div>
             </div>
@@ -197,7 +199,7 @@
     </main>
     <footer>
         <div class="footer-top">
-            <div class="container">
+            <div class="container clearfix">
                 <div class="footer-left">
                     <a class="logo">Техномарт</a>
                     <p class="contacts">г.Санкт-Петербург ул.Б. Конюшенная, д.19/8 +7 (812) 555 05 55 </p>
@@ -238,8 +240,8 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <div class="container">
-                <p>© 2010-2016 Компания <<Техномарт>> Все права защищены</p>
+            <div class="container clearfix">
+                <p class="copyright">© 2010-2016 Компания <<Техномарт>> Все права защищены</p>
                 <div class="social">
                     <a href="#" alt="Вконтакте"></a>
                     <a href="#" alt="Facebook"></a>

@@ -6,16 +6,201 @@ body {
     line-height: 17px;
 }
 h2 {
-    font-size: 30px;
+    font-size: 24px;
 	font-weight: normal;
     font-family: Cuprum;
-    color: #000000;
+    color: #32425c;
     line-height: 30px;
 }
 h3 {
     font-size: 24px;
 	font-weight: bold;
     font-family: Cuprum;
-    color: #32425c;
+    color: #000000;
     line-height: 30px;
+}
+/*Сетка главной страницы.*/
+.main-header {
+    background: cyan;
+}
+.container {
+    width: 940px;
+    margin: 10px auto;
+    padding: 0 10px;
+    background: yellow;
+}
+.logo {
+	width: 220px;
+	min-height: 40px;
+	float: left;
+	background: red;
+}
+.header-search {
+	float: left;
+	width: 150px;
+	min-height: 40px;
+}
+.order-info {
+	width: 460px;
+	float: right;
+	background: red;
+}
+.info {
+	float:left;
+	width: 300px;
+	margin-right: 20px;
+}
+.contacts {
+	float:left;
+	width: 300px;
+	margin-right: 20px;
+}
+.login {
+	float:left;
+	width: 300px;
+	margin-right: 0px;
+}
+.main-navigation {
+	float: left;
+	width: 940px;
+}
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.good {
+	float: left;
+	width: 300px;
+	margin-right: 20px;
+}
+.good-3 {
+	margin-right: 0px;
+}
+.slider {
+	float: left;
+	width: 620px;
+	min-height: 266px;
+	margin-right: 20px;
+}
+.good-4 {
+	float: left;
+	margin-right: 0px;
+}
+.good-5 {
+	float: left;
+	margin-right: 0px;
+}
+.pop-goods {
+	float: left;
+	width: 940px;
+}
+.catalog-item {
+	float: left;
+	width: 200px;
+	min-height: 318px;
+	margin-right: 20px;
+	font-size: 12px;
+}
+.pop-producers {
+	float: left;
+	width: 940px;
+}
+.producer {
+    float: left;
+    width: 220px;
+    margin-right: 20px;
+    min-height: 144px;
+}
+.inter, .meta {
+	margin-right: 0px;
+}
+.service-1 {
+	float: left;
+	width: 400px;
+	min-height: 100px;
+	margin-right: 540px;
+}
+.service-2 {
+	float: left;
+	width: 240px;
+	min-height: 186px;
+	margin-right: 80px;
+}
+.delivery {
+	float: left;
+	width: 300px;
+	min-height: 154px;
+}
+.left-side {
+	float: left;
+	width: 540px;
+	min-height: 374px;
+	margin-right: 100px;
+}
+.right-side {
+	float: left;
+	width: 300px;
+	min-height: 374px;
+}
+.footer-left {
+	float: left;
+	width: 380px;
+	min-height: 140px;
+	margin-right: 10px;
+}
+.footer-right {
+	float: right;
+	width: 550px;
+	min-height: 74px;
+}
+.copyright {
+	float: left;
+	width: 230px;
+	min-height: 34px;
+	margin-right: 160px;
+}
+.social {
+	float: left;
+	width: 150px;
+	min-height: 40px;
+	margin-right: 100px;
+}
+.contact-us {
+	float: left;
+	width: 300px;
+	min-height: 32px;
+}
+.all {
+	float: right; 
+}
+/*Сетка каталога.*/
+.bredcrumbs {
+	float: left;
+	width: 380px;
+	margin-right: 560px;
+}
+.filter {
+	float: left;
+	width: 220px;
+	min-height: 750px;
+	margin-right: 20px;
+}
+.products {
+	float: right;
+	width: 700px;
+	min-height: 1144px;
+}
+.info-2 {
+	float: left;
+	width: 940px;
+	min-height: 132px;
+	margin-right: 20px;
+}
+.catalog-item-4 {
+    margin-right: 0px;
+    background: red;
+}
+.pages {
+	float: left;
 }
