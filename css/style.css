@@ -19,31 +19,56 @@ h3 {
     color: #000000;
     line-height: 30px;
 }
+ul {
+	padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+li {
+	padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
 /*Сетка главной страницы.*/
 .main-header {
-    background: cyan;
-}
+    
+ }
 .container {
     width: 940px;
     margin: 10px auto;
     padding: 0 10px;
-    background: yellow;
+    
 }
 .logo {
 	width: 220px;
-	min-height: 40px;
+	min-height: 42px;
 	float: left;
-	background: red;
+	
 }
 .header-search {
 	float: left;
 	width: 150px;
-	min-height: 40px;
+	min-height: 42px;
 }
 .order-info {
 	width: 460px;
 	float: right;
-	background: red;
+	min-height: 42px;
+	
+}
+.book {
+	float: left;
+	width: 140px;
+	margin-right: 20px;
+}
+.shopping-cart {
+	float: left;
+	width: 140px;
+	margin-right: 10px;
+}
+.order {
+	float: left;
+	width: 150px;
 }
 .info {
 	float:left;
@@ -63,7 +88,52 @@ h3 {
 .main-navigation {
 	float: left;
 	width: 940px;
+	padding-top: 22px;
+	padding-bottom: 22px;
+	padding-left: 52px;
+	background: yellow;
 }
+.n-1 { 
+    float: left; 
+    margin-right: 65px; 
+    background: red; 
+
+} 
+.n-2 { 
+    float: left; 
+    margin-right: 60px; 
+    min-width: 52px; 
+    background: red; 
+} 
+.n-3 { 
+    float: left; 
+    margin-right: 61px; 
+    min-width: 52px; 
+    background: red; 
+} 
+.n-4 { 
+    float: left; 
+    margin-right: 58px; 
+    min-width: 52px; 
+    background: red; 
+} 
+.n-5 { 
+    float: left; 
+    margin-right: 62px; 
+    min-width: 52px; 
+    background: red; 
+} 
+.n-6 { 
+    float: left; 
+    margin-right: 64px; 
+    min-width: 52px; 
+    background: red; 
+} 
+.n-7 { 
+    float: left; 
+    min-width: 52px; 
+    background: red;
+ }
 .clearfix::after {
 	content: "";
 	display: table;
@@ -97,7 +167,7 @@ h3 {
 }
 .catalog-item {
 	float: left;
-	width: 200px;
+	width: 220px;
 	min-height: 318px;
 	margin-right: 20px;
 	font-size: 12px;
@@ -127,6 +197,9 @@ h3 {
 	min-height: 186px;
 	margin-right: 80px;
 }
+.service-2 :nth-child(n) {
+    margin-right: 130px;
+}
 .delivery {
 	float: left;
 	width: 300px;
@@ -148,11 +221,28 @@ h3 {
 	width: 380px;
 	min-height: 140px;
 	margin-right: 10px;
+	background: blue;
 }
 .footer-right {
 	float: right;
 	width: 550px;
 	min-height: 74px;
+	background: cyan;
+}
+ .navigation {
+	float: left;
+	margin-right: 50px;
+	padding-top: 24px;
+	background: green;
+}
+ .navigation-1 {
+	float: left;
+	margin-right: 0px;
+	padding-top: 24px;
+	background: green;
+}
+.goods-footer {
+    margin-left: 22px;
 }
 .copyright {
 	float: left;
@@ -172,7 +262,8 @@ h3 {
 	min-height: 32px;
 }
 .all {
-	float: right; 
+	float: right;
+	margin-bottom: ; 
 }
 /*Сетка каталога.*/
 .bredcrumbs {
@@ -185,6 +276,10 @@ h3 {
 	width: 220px;
 	min-height: 750px;
 	margin-right: 20px;
+}
+.sort {
+	float: left;
+	margin-bottom: 10px;
 }
 .products {
 	float: right;
@@ -199,8 +294,8 @@ h3 {
 }
 .catalog-item-4 {
     margin-right: 0px;
-    background: red;
-}
-.pages {
+ }
+.page {
 	float: left;
+	margin-right: 10px;
 }
