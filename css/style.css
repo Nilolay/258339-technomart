@@ -24,11 +24,7 @@ ul {
     margin: 0;
     list-style-type: none;
 }
-li {
-	padding: 0;
-    margin: 0;
-    list-style-type: none;
-}
+
 /*Сетка главной страницы.*/
 .main-header {
     
